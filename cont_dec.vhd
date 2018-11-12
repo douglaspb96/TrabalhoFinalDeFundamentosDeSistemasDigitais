@@ -14,17 +14,22 @@ end cont_dec;
 architecture arch of cont_dec is
 	signal contAux : std_logic_vector(3 downto 0);
 begin
-	-- COMPLETAR COM A LOGICA DO CONTADOR DECIMAL
-	contAux <= cont;
+	-- TESTAR
+	cont <= contAux;
 	
 	cont_d : process(clock, reset)
 		begin
 			if reset = '1' then	
-				contAux <= "1001"; -- NOVE
+				contAux <= "0000";
 			elsif clock'event and clock = '1' then
-				if en = '1' then
-					if load = '1'   then contAux <= value;
-									else contAux <= contAux - 1;
+				if load = '1' then 
+					contAux <= value;
+				else 
+					if en = '1' then
+						if contAux = '0' then
+							contAux <= "1001"
+						else 
+							contAux <= contAux - 1;
 					end if;
 				end if;
 			end if;
