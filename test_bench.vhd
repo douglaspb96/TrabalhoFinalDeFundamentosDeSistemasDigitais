@@ -1,0 +1,40 @@
+-- FAZER UM TEST BENCH COM OUTROS VALORES, ESTE É SÓ PARA TESTAR COM O EXEMPLO DO SOR
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity tb is
+end tb;
+architecture arch of tb is
+	signal value, cont1, cont2 : std_logic_vector(15 downto 0);
+	signal reset, enable, load, j1, j2, winJ1, winJ2 : std_logic;
+	signal ck : std_logic := '0';
+begin
+	relogio : entity work.relogio_xadrez
+		port map( 
+			reset => reset, 
+			enable => enable, 
+			load => load, 
+			j1 => j1, 
+			j2 => j2, 
+			winJ1 => winJ1, 
+			winJ2 => winJ2
+		);
+		
+		reset <= '1', '0' after 5 ns;
+		ck <= not ck after 5 ns;
+		load <= '0', '1' after 23 ns, '0' after 33 ns;
+		value <= x"0289";
+		j1 <= '0', '1' after 652 ns, '0' after 662 ns, 
+			'1' after 1302 ns, '0' after 1312 ns, 
+			'1' after 2302 ns, '0' after 2312 ns, 
+			'1' after 4452 ns, '0' after 4462 ns, 
+			'1' after 5082 ns, '0' after 5092 ns;
+		j2 <= '0', '1' after 202 ns, '0' after 212 ns, 
+			'1' after 402 ns, '0' after 412 ns, 
+			'1' after 902 ns, '0' after 912 ns, 
+			'1' after 1702 ns, '0' after 1712 ns, 
+			'1' after 3002 ns, '0' after 3012 ns, 
+			'1' after 4902 ns, '0' after 4912 ns, 
+			'1' after 5582 ns, '0' after 5592 ns;
+end arch;
