@@ -1,0 +1,986 @@
+# //  ModelSim SE-64 10.3c Jul 18 2014 Linux 4.9.0-5-amd64
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+ls
+# cont_4_digitos.vhd
+# cont_dec.vhd
+# modelsim.ini
+# README.md
+# relogio_xadrez.vhd
+# roda.do
+# test_bench.vhd
+# transcript
+# wave.do
+# work
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:33:02 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# ** Error: cont_dec.vhd(1): near "ï": syntax error
+# End time: 10:33:02 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+ vlib work
+# ** Warning: (vlib-34) Library already exists at "work".
+vmap work work
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+vcom -work work cont_dec.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:34:18 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# ** Error: cont_dec.vhd(1): near "ï": syntax error
+# End time: 10:34:18 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:34:37 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# ** Error: cont_dec.vhd(11): near ")": expecting IDENTIFIER
+# End time: 10:34:37 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:35:39 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# ** Error: cont_dec.vhd(11): near ")": expecting IDENTIFIER
+# End time: 10:35:39 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:36:45 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(29): No feasible entries for infix operator "=".
+# ** Error: cont_dec.vhd(29): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: cont_dec.vhd(31): near "else": expecting ';'
+# ** Error: cont_dec.vhd(39): VHDL Compiler exiting
+# End time: 10:36:45 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:37:16 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(31): near "else": expecting ';'
+# ** Error: cont_dec.vhd(39): VHDL Compiler exiting
+# End time: 10:37:16 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:38:26 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(32): No feasible entries for infix operator "-".
+# ** Error: cont_dec.vhd(32): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Warning: [14] cont_dec.vhd(30): (vcom-1272) Length of expected is 4; length of actual is 16.
+# ** Error: cont_dec.vhd(39): VHDL Compiler exiting
+# End time: 10:38:26 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 1
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:39:16 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(18): Signal "contAux" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: cont_dec.vhd(23): Bit string literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# ** Error: cont_dec.vhd(26): Signal "valor" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: cont_dec.vhd(29): No feasible entries for infix operator "=".
+# ** Error: cont_dec.vhd(29): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: cont_dec.vhd(30): Bit string literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# ** Error: cont_dec.vhd(32): No feasible entries for infix operator "-".
+# ** Error: cont_dec.vhd(32): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: cont_dec.vhd(39): VHDL Compiler exiting
+# End time: 10:39:16 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 9, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:39:30 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(32): No feasible entries for infix operator "-".
+# ** Error: cont_dec.vhd(32): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Warning: [14] cont_dec.vhd(30): (vcom-1272) Length of expected is 4; length of actual is 16.
+# ** Error: cont_dec.vhd(39): VHDL Compiler exiting
+# End time: 10:39:30 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 1
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:40:19 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(32): No feasible entries for infix operator "-".
+# ** Error: cont_dec.vhd(32): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: cont_dec.vhd(39): VHDL Compiler exiting
+# End time: 10:40:19 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:41:00 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(32): No feasible entries for infix operator "-".
+# ** Error: cont_dec.vhd(32): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: cont_dec.vhd(39): VHDL Compiler exiting
+# End time: 10:41:00 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:41:07 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(32): No feasible entries for infix operator "-".
+# ** Error: cont_dec.vhd(32): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: cont_dec.vhd(39): VHDL Compiler exiting
+# End time: 10:41:07 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:45:50 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(31): No feasible entries for infix operator "-".
+# ** Error: cont_dec.vhd(31): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: cont_dec.vhd(39): VHDL Compiler exiting
+# End time: 10:45:50 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:46:55 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(28): No feasible entries for infix operator "=".
+# ** Error: cont_dec.vhd(28): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: cont_dec.vhd(31): No feasible entries for infix operator "-".
+# ** Error: cont_dec.vhd(31): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: cont_dec.vhd(39): VHDL Compiler exiting
+# End time: 10:46:55 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:47:33 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(28): No feasible entries for infix operator "=".
+# ** Error: cont_dec.vhd(28): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: cont_dec.vhd(31): No feasible entries for infix operator "-".
+# ** Error: cont_dec.vhd(31): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: cont_dec.vhd(39): VHDL Compiler exiting
+# End time: 10:47:33 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:48:00 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(28): No feasible entries for infix operator "=".
+# ** Error: cont_dec.vhd(28): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: cont_dec.vhd(31): No feasible entries for infix operator "-".
+# ** Error: cont_dec.vhd(31): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: cont_dec.vhd(39): VHDL Compiler exiting
+# End time: 10:48:00 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:49:20 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(31): No feasible entries for infix operator "-".
+# ** Error: cont_dec.vhd(31): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: cont_dec.vhd(39): VHDL Compiler exiting
+# End time: 10:49:20 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:49:40 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(31): No feasible entries for infix operator "-".
+# ** Error: cont_dec.vhd(31): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: cont_dec.vhd(39): VHDL Compiler exiting
+# End time: 10:49:40 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:49:52 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(31): No feasible entries for infix operator "-".
+# ** Error: cont_dec.vhd(31): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: cont_dec.vhd(39): VHDL Compiler exiting
+# End time: 10:49:52 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:50:36 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(31): No feasible entries for infix operator "-".
+# ** Error: cont_dec.vhd(31): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: cont_dec.vhd(39): VHDL Compiler exiting
+# End time: 10:50:36 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:51:00 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(30): No feasible entries for infix operator "-".
+# ** Error: cont_dec.vhd(30): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: cont_dec.vhd(34): near "if": expecting PROCESS
+# End time: 10:51:00 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:51:06 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(30): No feasible entries for infix operator "-".
+# ** Error: cont_dec.vhd(30): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: cont_dec.vhd(34): near "if": expecting PROCESS
+# End time: 10:51:06 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:53:09 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(27): No feasible entries for infix operator "=".
+# ** Error: cont_dec.vhd(27): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: cont_dec.vhd(30): near ";": syntax error
+# ** Error: cont_dec.vhd(34): near "if": expecting PROCESS
+# End time: 10:53:09 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:53:48 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# ** Error: cont_dec.vhd(10): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: cont_dec.vhd(12): VHDL Compiler exiting
+# End time: 10:53:48 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:54:01 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(27): No feasible entries for infix operator "=".
+# ** Error: cont_dec.vhd(27): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: cont_dec.vhd(30): near ";": syntax error
+# ** Error: cont_dec.vhd(34): near "if": expecting PROCESS
+# End time: 10:54:01 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:54:17 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(30): near ";": syntax error
+# ** Error: cont_dec.vhd(34): near "if": expecting PROCESS
+# End time: 10:54:17 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:54:31 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(30): No feasible entries for infix operator "-".
+# ** Error: cont_dec.vhd(30): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: cont_dec.vhd(34): near "if": expecting PROCESS
+# End time: 10:54:31 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:54:41 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(30): No feasible entries for infix operator "-".
+# ** Error: cont_dec.vhd(30): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: cont_dec.vhd(34): near "if": expecting PROCESS
+# End time: 10:54:41 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:56:11 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(30): No feasible entries for infix operator "-".
+# ** Error: cont_dec.vhd(30): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: cont_dec.vhd(37): VHDL Compiler exiting
+# End time: 10:56:11 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:56:26 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(30): No feasible entries for infix operator "-".
+# ** Error: cont_dec.vhd(30): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: cont_dec.vhd(37): VHDL Compiler exiting
+# End time: 10:56:26 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:56:36 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(30): No feasible entries for infix operator "-".
+# ** Error: cont_dec.vhd(30): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: cont_dec.vhd(37): VHDL Compiler exiting
+# End time: 10:56:36 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:56:47 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(27): No feasible entries for infix operator "=".
+# ** Error: cont_dec.vhd(27): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: cont_dec.vhd(30): No feasible entries for infix operator "-".
+# ** Error: cont_dec.vhd(30): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: cont_dec.vhd(37): VHDL Compiler exiting
+# End time: 10:56:47 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:58:37 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(22): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: cont_dec.vhd(27): No feasible entries for infix operator "=".
+# ** Error: cont_dec.vhd(27): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: cont_dec.vhd(30): No feasible entries for infix operator "-".
+# ** Error: cont_dec.vhd(30): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: cont_dec.vhd(37): VHDL Compiler exiting
+# End time: 10:58:37 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 10:58:46 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(27): No feasible entries for infix operator "=".
+# ** Error: cont_dec.vhd(27): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: cont_dec.vhd(30): No feasible entries for infix operator "-".
+# ** Error: cont_dec.vhd(30): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: cont_dec.vhd(37): VHDL Compiler exiting
+# End time: 10:58:46 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:01:01 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(27): No feasible entries for infix operator "=".
+# ** Error: cont_dec.vhd(27): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: cont_dec.vhd(30): No feasible entries for infix operator "-".
+# ** Error: cont_dec.vhd(30): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: cont_dec.vhd(37): VHDL Compiler exiting
+# End time: 11:01:01 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:01:58 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(28): No feasible entries for infix operator "=".
+# ** Error: cont_dec.vhd(28): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: cont_dec.vhd(31): No feasible entries for infix operator "-".
+# ** Error: cont_dec.vhd(31): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: cont_dec.vhd(37): VHDL Compiler exiting
+# End time: 11:01:58 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:08:01 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(31): No feasible entries for infix operator "-".
+# ** Error: cont_dec.vhd(31): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: cont_dec.vhd(37): VHDL Compiler exiting
+# End time: 11:08:01 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:10:48 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(31): No feasible entries for infix operator "-".
+# ** Error: cont_dec.vhd(31): Cannot resolve expression type of infix expression.
+# ** Error: cont_dec.vhd(31): Illegal type conversion to ieee.std_logic_1164.STD_LOGIC_VECTOR (operand type is not known).
+# ** Error: cont_dec.vhd(37): VHDL Compiler exiting
+# End time: 11:10:48 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:12:06 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# ** Error: cont_dec.vhd(31): No feasible entries for infix operator "-".
+# ** Error: cont_dec.vhd(31): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: cont_dec.vhd(37): VHDL Compiler exiting
+# End time: 11:12:06 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 4
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_dec.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:19:27 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# End time: 11:19:27 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:19:27 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_4_digitos.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_4_digitos
+# ** Error: cont_4_digitos.vhd(11): near ")": expecting IDENTIFIER
+# End time: 11:19:28 on Nov 14,2018, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 5
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_4_digitos.vhd"
+do roda.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:19:41 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity cont_dec
+# -- Compiling architecture arch of cont_dec
+# End time: 11:19:41 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:19:41 on Nov 14,2018
+# vcom -reportprogress 300 -work work cont_4_digitos.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_4_digitos
+# ** Error: cont_4_digitos.vhd(11): near ")": expecting IDENTIFIER
+# End time: 11:19:41 on Nov 14,2018, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./roda.do line 5
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work cont_4_digitos.vhd"

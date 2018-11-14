@@ -8,7 +8,7 @@ entity cont_dec is
 		en, load, reset, clock : in std_logic;
 		valor : in std_logic_vector(3 downto 0);
 		-- SAIDAS
-		cont : out std_logic_vector(3 downto 0)
+		cont : out std_logic_vector(3 downto 0) := "0000"
 	);
 end cont_dec;
 
