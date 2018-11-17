@@ -15,8 +15,8 @@ end cont_4_digitos;
 architecture arch of cont_4_digitos is
 	signal segundo, init : std_logic_vector(15 downto 0);
 	signal en_segundo : std_logic_vector(3 downto 0);
-	signal parado : std_logic;
-	signal flag : std_logic; -- indica se o contador esta parado ou nao
+	signal parado : std_logic := '0';
+	signal flag : std_logic := '0'; -- indica se o contador esta parado ou nao
 begin
 	-- DIGITOS DA DIREITA PARA ESQUERDA
 	init(15 downto 12) <= valor(15 downto 12); -- PRIMEIRO DIGITO 
@@ -28,38 +28,36 @@ begin
 		flag <= '1';
 	end if;
 
-	parado <= '1' when 		(segundo(15 downto 12) = "0000") 
-						and (segundo(11 downto 8) = "0000") 
-						and (segundo(7 downto 4) = "0000") 
-						and (segundo(3 downto 0) = "0000") 
-						else '0';
+	-- 
+	
+	parado <= '1' when (segundo(15 downto 12) = "0000") and (segundo(11 downto 8) = "0000") and (segundo(7 downto 4) = "0000") and (segundo(3 downto 0) = "0000") else '0';
 	--if((segundo(15 downto 12) = "0000") and (segundo(11 downto 8) = "0000") and (segundo(7 downto 4) = "0000") and (segundo(3 downto 0) = "0000")) then
 	--	parado <= '1';
 	--end if;
 
 	en_segundo <= (others => '0');
 
-	if ( (parado = '0') and (enable = '1') ) then 
-		en_segundo(0) <= '1';
+	if (parado = '0' and enable = '1') then 
+		en_segundo(0) = '1';
  	elsif (parado = '0' and segundo(3 downto 0) = "0000" ) then 
-		en_segundo(1) <= '1';
+		en_segundo(1) = '1';
  	elsif (parado = '0' and segundo(7 downto 4) = "0000" and segundo(3 downto 0) = "0000" ) then
-		en_segundo(2) <= '1';
+		en_segundo(2) = '1';
  	elsif (parado = '0' and segundo(11 downto 8) = "0000" and segundo(7 downto 4) = "0000" and segundo(2) = "0000") then
-		en_segundo(3) <= '1';
+		en_segundo(3) = '1';
 	end if;
 
 	cont_0 : entity work.cont_dec
-				port map(valor => init(3 downto 0), en => en_segundo(0), load => load, reset => reset, clock => clock, cont => segundo(3 downto 0) );
+				port map(valor => init(3 downto 0), en => en_segundo(0), load => load, reset => reset, clock => clock );
 	
 	cont_1 : entity work.cont_dec
-				port map(valor => init(7 downto 4), en => en_segundo(1), load => load, reset => reset, clock => clock, cont => segundo(7 downto 4) );
+				port map(valor => init(7 downto 4), en => en_segundo(1), load => load, reset => reset, clock => clock );
 	
 	cont_2 : entity work.cont_dec
-				port map(valor => init(11 downto 8), en => en_segundo(2), load => load, reset => reset, clock => clock, cont => segundo(11 downto 8) );
+				port map(valor => init(11 downto 8), en => en_segundo(2), load => load, reset => reset, clock => clock );
 	
 	cont_3 : entity work.cont_dec
-				port map(valor => init(15 downto 12), en => en_segundo(3), load => load, reset => reset, clock => clock, cont => segundo(15 downto 12) );
+				port map(valor => init(15 downto 12), en => en_segundo(3), load => load, reset => reset, clock => clock );
 				
 	cont <= segundo(3) & segundo(2) & segundo(1) & segundo(0);
 end arch;

@@ -5,7 +5,7 @@ use IEEE.std_logic_unsigned.all;
 entity relogio_xadrez is
 	port (
 		-- ENTRADAS
-		valor : in std_logic_vector(15 downto 0);
+		value : in std_logic_vector(15 downto 0);
 		j1, j2, load, reset, clock : in std_logic;
 		-- SAIDAS
 		cont1, cont2 : out std_logic_vector(15 downto 0);
