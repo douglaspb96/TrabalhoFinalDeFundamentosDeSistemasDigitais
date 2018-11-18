@@ -13,6 +13,7 @@ architecture arch of tb is
 begin
 	relogio : entity work.relogio_xadrez
 		port map( 
+			enable => enable,
 			load => load, 
 			reset => reset,
 			clock => ck,
@@ -20,10 +21,13 @@ begin
 			j2 => j2, 
 			winJ1 => winJ1, 
 			winJ2 => winJ2,
-			valor => valor
+			valor => valor,
+			cont1 => cont1,
+			cont2 => cont2
 		);
 		
 		reset <= '1', '0' after 5 ns;
+		enable <= '0', '1' after 300 ns;
 		ck <= not ck after 5 ns;
 		load <= '0', '1' after 23 ns, '0' after 33 ns;
 		valor <= x"0289";

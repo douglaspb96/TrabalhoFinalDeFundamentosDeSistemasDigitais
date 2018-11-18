@@ -13,53 +13,36 @@ entity cont_4_digitos is
 end cont_4_digitos;
 
 architecture arch of cont_4_digitos is
-	signal segundo, init : std_logic_vector(15 downto 0);
-	signal en_segundo : std_logic_vector(3 downto 0);
-	signal parado : std_logic;
-	signal flag : std_logic; -- indica se o contador esta parado ou nao
+	signal seg : std_logic_vector(15 downto 0);
+	signal en_seg : std_logic_vector(3 downto 0);
+	signal enable0, enable1, enable2, enable3, parado : std_logic;
 begin
-	-- DIGITOS DA DIREITA PARA ESQUERDA
-	init(15 downto 12) <= valor(15 downto 12); -- PRIMEIRO DIGITO 
-	init(11 downto 8) <= valor(11 downto 8); -- SEGUNDO DIGITO 
-	init(7 downto 4) <= valor(7 downto 4); -- TERCEIRO DIGITO
-	init(3 downto 0) <= valor(3 downto 0); -- QUARTO DIGITO
 	
-	if( (enable='1') and (not(flag)) ) then
-		flag <= '1';
-	end if;
-
-	parado <= '1' when 		(segundo(15 downto 12) = "0000") 
-						and (segundo(11 downto 8) = "0000") 
-						and (segundo(7 downto 4) = "0000") 
-						and (segundo(3 downto 0) = "0000") 
+	parado <= '1' when (seg(15 downto 12) = "0000") 
+						and (seg(11 downto 8) = "0000") 
+						and (seg(7 downto 4) = "0000") 
+						and (seg(3 downto 0) = "0000") 
 						else '0';
-	--if((segundo(15 downto 12) = "0000") and (segundo(11 downto 8) = "0000") and (segundo(7 downto 4) = "0000") and (segundo(3 downto 0) = "0000")) then
+	--if((seg(15 downto 12) = "0000") and (seg(11 downto 8) = "0000") and (seg(7 downto 4) = "0000") and (seg(3 downto 0) = "0000")) then
 	--	parado <= '1';
 	--end if;
-
-	en_segundo <= (others => '0');
-
-	if ( (parado = '0') and (enable = '1') ) then 
-		en_segundo(0) <= '1';
- 	elsif (parado = '0' and segundo(3 downto 0) = "0000" ) then 
-		en_segundo(1) <= '1';
- 	elsif (parado = '0' and segundo(7 downto 4) = "0000" and segundo(3 downto 0) = "0000" ) then
-		en_segundo(2) <= '1';
- 	elsif (parado = '0' and segundo(11 downto 8) = "0000" and segundo(7 downto 4) = "0000" and segundo(2) = "0000") then
-		en_segundo(3) <= '1';
-	end if;
+	
+	enable0 <= '1' when parado = '0' and enable = '1' else '0';
+	enable1 <= '1' when parado = '0' and seg(3 downto 0) = "0000" else '0';
+ 	enable2 <= '1' when parado = '0' and seg(7 downto 4) = "0000" and seg(3 downto 0) = "0000" else '0';
+	enable3 <= '1' when parado = '0' and seg(11 downto 8) = "0000" and seg(7 downto 4) = "0000" and seg(3 downto 0) = "0000" else '0';
 
 	cont_0 : entity work.cont_dec
-				port map(valor => init(3 downto 0), en => en_segundo(0), load => load, reset => reset, clock => clock, cont => segundo(3 downto 0) );
+				port map(valor => valor(3 downto 0), en => enable0, load => load, reset => reset, clock => clock, cont => seg(3 downto 0) );
 	
 	cont_1 : entity work.cont_dec
-				port map(valor => init(7 downto 4), en => en_segundo(1), load => load, reset => reset, clock => clock, cont => segundo(7 downto 4) );
+				port map(valor => valor(7 downto 4), en => enable1, load => load, reset => reset, clock => clock, cont => seg(7 downto 4) );
 	
 	cont_2 : entity work.cont_dec
-				port map(valor => init(11 downto 8), en => en_segundo(2), load => load, reset => reset, clock => clock, cont => segundo(11 downto 8) );
+				port map(valor => valor(11 downto 8), en => enable2, load => load, reset => reset, clock => clock, cont => seg(11 downto 8) );
 	
 	cont_3 : entity work.cont_dec
-				port map(valor => init(15 downto 12), en => en_segundo(3), load => load, reset => reset, clock => clock, cont => segundo(15 downto 12) );
+				port map(valor => valor(15 downto 12), en => enable3, load => load, reset => reset, clock => clock, cont => seg(15 downto 12) );
 				
-	cont <= segundo(3) & segundo(2) & segundo(1) & segundo(0);
+	cont <= seg(15 downto 12) & seg(11 downto 8) & seg(7 downto 4) & seg(3 downto 0);
 end arch;

@@ -9,7 +9,7 @@ z2
 cModel Technology
 d/home/17204196/Desktop/TrabalhoFinalDeFundamentosDeSistemasDigitais
 Econt_4_digitos
-Z0 w1542478988
+Z0 w1542512818
 Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
@@ -23,9 +23,9 @@ V<1ACERc8Z6NdJQca46P0<1
 !s100 [MH0H5QzeZU?UXm7RLPZH1
 Z8 OV;C;10.6d;65
 32
-Z9 !s110 1542478993
+Z9 !s110 1542513019
 !i10b 1
-Z10 !s108 1542478993.000000
+Z10 !s108 1542513019.000000
 Z11 !s90 -reportprogress|300|-work|work|cont_4_digitos.vhd|
 Z12 !s107 cont_4_digitos.vhd|
 !i113 1
@@ -37,30 +37,30 @@ R1
 R2
 R3
 R4
-DEx4 work 14 cont_4_digitos 0 22 <1ACERc8Z6NdJQca46P0<1
-l18
+Z16 DEx4 work 14 cont_4_digitos 0 22 <1ACERc8Z6NdJQca46P0<1
+l19
 L15
-V=^<Kc:Ih_<9E@gjQjGI>93
-!s100 m?3;9QJ8_h]92n[G_RBib2
+VR_>m8lMff[aFH4Z_HKnPc2
+!s100 j^^>^j5LTTBZfJ6eaWUem1
 R8
 32
-Z16 !s110 1542469518
+R9
 !i10b 1
-Z17 !s108 1542469518.000000
+R10
 R11
 R12
 !i113 1
 R13
 R14
 Econt_dec
-Z18 w1542467286
+Z17 w1542510296
 R1
 R2
 R3
 R4
 R5
-Z19 8cont_dec.vhd
-Z20 Fcont_dec.vhd
+Z18 8cont_dec.vhd
+Z19 Fcont_dec.vhd
 l0
 L5
 V=iD]j?DE;2j5h>3a:dEPZ0
@@ -69,7 +69,7 @@ R8
 32
 R9
 !i10b 1
-R10
+Z20 !s108 1542513018.000000
 Z21 !s90 -reportprogress|300|-work|work|cont_dec.vhd|
 Z22 !s107 cont_dec.vhd|
 !i113 1
@@ -89,14 +89,14 @@ R8
 32
 R9
 !i10b 1
-R10
+R20
 R21
 R22
 !i113 1
 R13
 R14
 Erelogio_xadrez
-Z23 w1542468125
+Z23 w1542509174
 R1
 R2
 R3
@@ -106,40 +106,41 @@ Z24 8relogio_xadrez.vhd
 Z25 Frelogio_xadrez.vhd
 l0
 L5
-V?T4RYYiMOLB6OSko9KV<D0
-!s100 9z6d>W=^9S;5^^Wm3dInd2
+V3K5c4OMk6Fn22l7@`312j3
+!s100 >_CCIbBn?]Nj;=:NH73jH0
 R8
 32
-R16
+R9
 !i10b 1
-R17
+R10
 Z26 !s90 -reportprogress|300|-work|work|relogio_xadrez.vhd|
 Z27 !s107 relogio_xadrez.vhd|
 !i113 1
 R13
 R14
 Aarch
+R16
 R1
 R2
 R3
 R4
-Z28 DEx4 work 14 relogio_xadrez 0 22 ?T4RYYiMOLB6OSko9KV<D0
-l17
+Z28 DEx4 work 14 relogio_xadrez 0 22 3K5c4OMk6Fn22l7@`312j3
+l18
 L16
-VnzoA@8B:cfG?iW;dagl^:0
-!s100 8cWf3MQk4CE3f<dUM_o]M2
+Vz:FhYd;Ae4NDdV?hQbgMk2
+!s100 _giCnNhajC;;gEgo;oVG_1
 R8
 32
-R16
+R9
 !i10b 1
-R17
+R10
 R26
 R27
 !i113 1
 R13
 R14
 Etb
-Z29 w1542468483
+Z29 w1542513013
 R3
 R4
 R5
@@ -151,11 +152,11 @@ V:kbTkmU5<dblWO8j9g^m71
 !s100 HPLkdK1R]VF^=6dPeaWV22
 R8
 32
-Z32 !s110 1542469519
+R9
 !i10b 1
-R17
-Z33 !s90 -reportprogress|300|-work|work|test_bench.vhd|
-Z34 !s107 test_bench.vhd|
+R10
+Z32 !s90 -reportprogress|300|-work|work|test_bench.vhd|
+Z33 !s107 test_bench.vhd|
 !i113 1
 R13
 R14
@@ -165,18 +166,60 @@ R2
 R28
 R3
 R4
-DEx4 work 2 tb 0 22 :kbTkmU5<dblWO8j9g^m71
+Z34 DEx4 work 2 tb 0 22 :kbTkmU5<dblWO8j9g^m71
 l13
 L9
-VEXo?QPDB[hU50EOHnRcjX2
-!s100 ?VDf7;b:J<nU0I[oN^][62
+V3W8=6?;;FIE6K=N;0gTM@2
+!s100 @THWLzBfJ0M:a8E9]MH102
 R8
 32
-R32
+R9
 !i10b 1
-R17
+R10
+R32
 R33
-R34
+!i113 1
+R13
+R14
+Etb_cont_dec
+Z35 w1542512770
+R3
+R4
+R5
+Z36 8tb_cont_dec.vhd
+Z37 Ftb_cont_dec.vhd
+l0
+L7
+VLm;_Cj@OHNKQ_K_o[K2JI1
+!s100 `7DQUaaH=IiLfb<:k7H5R3
+R8
+32
+Z38 !s110 1542512824
+!i10b 1
+Z39 !s108 1542512824.000000
+Z40 !s90 -reportprogress|300|-work|work|tb_cont_dec.vhd|
+Z41 !s107 tb_cont_dec.vhd|
+!i113 1
+R13
+R14
+Aarch
+R1
+R2
+R16
+R3
+R4
+DEx4 work 11 tb_cont_dec 0 22 Lm;_Cj@OHNKQ_K_o[K2JI1
+l13
+L9
+VU7<fK<6Id;;do[c@31d161
+!s100 YihC6DjZcM6nKG4hM_A^33
+R8
+32
+R38
+!i10b 1
+R39
+R40
+R41
 !i113 1
 R13
 R14
