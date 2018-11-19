@@ -8,12 +8,11 @@ entity tb is
 end tb;
 architecture arch of tb is
 	signal valor, cont1, cont2 : std_logic_vector(15 downto 0);
-	signal reset, enable, load, j1, j2, winJ1, winJ2 : std_logic;
+	signal reset, load, j1, j2, winJ1, winJ2 : std_logic;
 	signal ck : std_logic := '0';
 begin
 	relogio : entity work.relogio_xadrez
 		port map( 
-			enable => enable,
 			load => load, 
 			reset => reset,
 			clock => ck,
@@ -27,7 +26,6 @@ begin
 		);
 		
 		reset <= '1', '0' after 5 ns;
-		enable <= '0', '1' after 300 ns;
 		ck <= not ck after 5 ns;
 		load <= '0', '1' after 23 ns, '0' after 33 ns;
 		valor <= x"0289";
